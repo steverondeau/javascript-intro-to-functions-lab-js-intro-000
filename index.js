@@ -15,7 +15,7 @@ function logWhisper(string) {
 }
 
 
-var string = "hello"
+var string = "HELLO!"
 //ring.toUpperCase() === string // true
 
 function sayHiToGrandma(string) {
