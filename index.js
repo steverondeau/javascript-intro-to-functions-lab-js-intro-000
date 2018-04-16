@@ -15,18 +15,20 @@ function logWhisper(string) {
 }
 
 
-var string = "HELLO!"
+var string = "ask"
 //ring.toUpperCase() === string // true
 
 function sayHiToGrandma(string) {
   if (string === "I love you, Grandma.")  {
     return "I love you, too.";
- } else if (string.toLowerCase() === "hello") {
+ } else if (string.toLowerCase() === string) {
      return "I can't hear you!";
-   } else if (string.toUpperCase() === "HELLO!") {
-       return "YES INDEED!";
+ } else if (string.toUpperCase() === string) {
+     return "YES INDEED!";    
         }
+     return "Hey!"
    }
+ console.log(sayHiToGrandma(string))
 
 
 /*if (time < 10) {
