@@ -27,7 +27,7 @@ function sayHiToGrandma(string) {
        return "YES INDEED!";
         }
    }
-}
+
 
 /*if (time < 10) {
     greeting = "Good morning";
